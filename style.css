@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap');
+
 
 body {
     padding: 0;
@@ -42,6 +44,7 @@ body {
 .mic-icon {
     width: 25px;
     position: absolute;
+    cursor: pointer;
     right: 10px;
     transition: all 0.4s;
     transition-delay: 1s;
@@ -69,4 +72,40 @@ body {
 
 .active .mic-icon{
     width: 0;
+}
+
+
+.source-code-btn {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-top: 40px;
+    text-decoration: none;
+    background-color: aliceblue;
+    padding: 10px 20px;
+    color: rgb(6, 118, 187);
+    transition: all 0.4s;
+    border-radius: 50px;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2),
+                -6px -6px 10px rgba(255, 255, 255, 0.7);
+}
+
+
+.red {
+    color: rgb(243, 76, 76);
+}
+
+.yellow {
+    color: rgb(233, 205, 27);
+}
+
+.green {
+    color: rgb(18, 149, 6);
+}
+
+.source-code-btn:hover {
+    transform: scale(1.02);
+}
+
+.btn.button {
+    color: rgb(171, 54, 54);
 }
