@@ -25,6 +25,9 @@ input.addEventListener("keypress", (e) => {
     }
 })
 
-$(function () {
-    $('[data-toggle="tooltip"]').tooltip()
+
+window.addEventListener("load", () => {
+    setTimeout(() => {
+        searchBar.classList.add("active");
+    }, 700);
 })
